@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+
+* {
+    background-color: rgb(40,40,40);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+center {
+    font-size: 40px;
+    margin-top: 20%;
+}
+
+.button {
+    font-size: 25px;
+    text-decoration: none;
+    background: rgb(22, 22, 22);
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px 24px;
+    transition: all 0.5s linear;
+
+}
+
+a:hover {
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 1);
+}
